@@ -13,6 +13,10 @@
 		48478A9E1D2F34FA005FC6EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48478A9C1D2F34FA005FC6EA /* Main.storyboard */; };
 		48478AA01D2F34FA005FC6EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48478A9F1D2F34FA005FC6EA /* Assets.xcassets */; };
 		48478AA31D2F34FA005FC6EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48478AA11D2F34FA005FC6EA /* LaunchScreen.storyboard */; };
+		48478AAB1D2F363B005FC6EA /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 48478AAA1D2F363B005FC6EA /* 3.png */; };
+		48478AAE1D2F38EA005FC6EA /* SharonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 48478AAD1D2F38EA005FC6EA /* SharonModel.m */; };
+		48478AB21D2F3AB4005FC6EA /* SharonViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 48478AB01D2F3AB4005FC6EA /* SharonViewCell.m */; };
+		48478AB31D2F3AB4005FC6EA /* SharonViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48478AB11D2F3AB4005FC6EA /* SharonViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,12 @@
 		48478A9F1D2F34FA005FC6EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48478AA21D2F34FA005FC6EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48478AA41D2F34FA005FC6EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48478AAA1D2F363B005FC6EA /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		48478AAC1D2F38EA005FC6EA /* SharonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharonModel.h; sourceTree = "<group>"; };
+		48478AAD1D2F38EA005FC6EA /* SharonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharonModel.m; sourceTree = "<group>"; };
+		48478AAF1D2F3AB4005FC6EA /* SharonViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharonViewCell.h; sourceTree = "<group>"; };
+		48478AB01D2F3AB4005FC6EA /* SharonViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharonViewCell.m; sourceTree = "<group>"; };
+		48478AB11D2F3AB4005FC6EA /* SharonViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SharonViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +72,12 @@
 				48478A971D2F34FA005FC6EA /* AppDelegate.m */,
 				48478A991D2F34FA005FC6EA /* ViewController.h */,
 				48478A9A1D2F34FA005FC6EA /* ViewController.m */,
+				48478AAC1D2F38EA005FC6EA /* SharonModel.h */,
+				48478AAD1D2F38EA005FC6EA /* SharonModel.m */,
+				48478AAF1D2F3AB4005FC6EA /* SharonViewCell.h */,
+				48478AB01D2F3AB4005FC6EA /* SharonViewCell.m */,
+				48478AB11D2F3AB4005FC6EA /* SharonViewCell.xib */,
+				48478AAA1D2F363B005FC6EA /* 3.png */,
 				48478A9C1D2F34FA005FC6EA /* Main.storyboard */,
 				48478A9F1D2F34FA005FC6EA /* Assets.xcassets */,
 				48478AA11D2F34FA005FC6EA /* LaunchScreen.storyboard */,
@@ -137,8 +153,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				48478AA31D2F34FA005FC6EA /* LaunchScreen.storyboard in Resources */,
+				48478AB31D2F3AB4005FC6EA /* SharonViewCell.xib in Resources */,
 				48478AA01D2F34FA005FC6EA /* Assets.xcassets in Resources */,
 				48478A9E1D2F34FA005FC6EA /* Main.storyboard in Resources */,
+				48478AAB1D2F363B005FC6EA /* 3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +167,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48478AB21D2F3AB4005FC6EA /* SharonViewCell.m in Sources */,
+				48478AAE1D2F38EA005FC6EA /* SharonModel.m in Sources */,
 				48478A9B1D2F34FA005FC6EA /* ViewController.m in Sources */,
 				48478A981D2F34FA005FC6EA /* AppDelegate.m in Sources */,
 				48478A951D2F34FA005FC6EA /* main.m in Sources */,
