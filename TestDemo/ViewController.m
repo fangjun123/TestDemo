@@ -34,6 +34,7 @@ static NSString *const reuseIdentifier = @"SharonViewCell";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
     self.section = 0;
 //    self.automaticallyAdjustsScrollViewInsets = NO;
 //    self.navigationController.navigationBar.translucent = NO;
