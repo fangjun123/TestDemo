@@ -72,10 +72,7 @@
 				48478A971D2F34FA005FC6EA /* AppDelegate.m */,
 				48478A991D2F34FA005FC6EA /* ViewController.h */,
 				48478A9A1D2F34FA005FC6EA /* ViewController.m */,
-				48478AAC1D2F38EA005FC6EA /* SharonModel.h */,
-				48478AAD1D2F38EA005FC6EA /* SharonModel.m */,
-				48478AAF1D2F3AB4005FC6EA /* SharonViewCell.h */,
-				48478AB01D2F3AB4005FC6EA /* SharonViewCell.m */,
+				C93EE25A211452B5003D1660 /* View */,
 				48478AB11D2F3AB4005FC6EA /* SharonViewCell.xib */,
 				48478AAA1D2F363B005FC6EA /* 3.png */,
 				48478A9C1D2F34FA005FC6EA /* Main.storyboard */,
@@ -93,6 +90,17 @@
 				48478A941D2F34FA005FC6EA /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C93EE25A211452B5003D1660 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				48478AAC1D2F38EA005FC6EA /* SharonModel.h */,
+				48478AAD1D2F38EA005FC6EA /* SharonModel.m */,
+				48478AAF1D2F3AB4005FC6EA /* SharonViewCell.h */,
+				48478AB01D2F3AB4005FC6EA /* SharonViewCell.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -318,6 +326,7 @@
 				48478AA91D2F34FA005FC6EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
